@@ -9,11 +9,9 @@ public class Validator {
 
     public static boolean validateStudent(Student student) {
         if(!student.getRegNumber().matches("[a-zA-Z]{4}[\\d]{4}")){
-            System.out.println("Intra reg number");
             return false;
         }
         if (!student.getName().matches("[a-zA-Z]+[\\s]?[a-zA-Z]+")) {
-            System.out.println("Intra nume number");
             return false;
         }
         if(student.getGroup() >= 1000 || student.getGroup() <= 0){
