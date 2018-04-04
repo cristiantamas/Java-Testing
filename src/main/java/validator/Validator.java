@@ -1,7 +1,7 @@
-package validator;
+package main.java.validator;
 
-import model.Laboratory;
-import model.Student;
+import main.java.model.Laboratory;
+import main.java.model.Student;
 
 import java.util.Date;
 

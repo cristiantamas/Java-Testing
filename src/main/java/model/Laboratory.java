@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

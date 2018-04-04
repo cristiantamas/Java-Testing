@@ -2,7 +2,7 @@ package main.java;
 
 import java.io.IOException;
 
-import ui.LaboratoriesUI;
+import main.java.ui.LaboratoriesUI;
 
 public class App {
 

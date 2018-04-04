@@ -1,9 +1,9 @@
-package controller;
+package main.java.controller;
 
-import repository.FileDataPersistence;
-import model.Laboratory;
-import model.Student;
-import validator.Validator;
+import main.java.repository.FileDataPersistence;
+import main.java.model.Laboratory;
+import main.java.model.Student;
+import main.java.validator.Validator;
 
 import java.io.IOException;
 import java.text.ParseException;
